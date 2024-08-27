@@ -37,7 +37,7 @@ const Hero = () => {
         ))}
       </Slider>
 
-      <div className="absolute sm:inset-20 lg:left-8 md:top-80 lg:top-72 sm:top-96">
+      <div className="absolute sm:inset-20 lg:left-8 md:top-80 lg:top-72 top-96 sm:top-96">
         <img className="m-auto md:w-full lg:w-7/12  " src="./logo.png" alt="" />
       </div>
     </div>
