@@ -1,14 +1,11 @@
-import { useState } from "react";
 import "./App.css";
-import Hero from "./Hero";
+import Homepage from "./Homepage";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div className="">
-        <Hero />
+      <div>
+        <Homepage />
       </div>
     </>
   );
