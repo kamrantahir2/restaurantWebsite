@@ -36,11 +36,10 @@ const Hero = () => {
           </div>
         ))}
       </Slider>
-      <img
-        className="m-auto w-7/12 absolute inset-20 "
-        src="./logo.png"
-        alt=""
-      />
+
+      <div className="absolute sm:inset-20 lg:left-8 lg:top-80 sm:top-96">
+        <img className="m-auto md:w-full lg:w-7/12  " src="./logo.png" alt="" />
+      </div>
     </div>
   );
 };
