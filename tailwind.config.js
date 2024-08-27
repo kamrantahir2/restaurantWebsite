@@ -6,6 +6,9 @@ export default {
       colors: {
         logo: "#f1d089",
       },
+      fontFamily: {
+        courgette: ["Courgette", "Arial", "sans-serif"],
+      },
     },
   },
   plugins: [],
