@@ -8,6 +8,8 @@ export default {
       },
       fontFamily: {
         courgette: ["Courgette", "Arial", "sans-serif"],
+        rubik: ["Rubik", "Arial", "sans-serif"],
+        quicksand: ["Quicksand", "Arial", "sans-serif"],
       },
     },
   },

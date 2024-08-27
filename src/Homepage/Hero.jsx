@@ -21,8 +21,8 @@ const Hero = () => {
     arrows: false,
   };
   return (
-    <div>
-      <Slider {...settings}>
+    <div className=" bg-yellow-200">
+      <Slider {...settings} className="border- border-black">
         {slideshowImages.map((image, index) => (
           <div key={index} className=" w-full h-screen relative">
             <div

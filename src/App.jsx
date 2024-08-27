@@ -1,13 +1,11 @@
 import "./App.css";
-import Homepage from "./Homepage";
+import Homepage from "./Homepage/Homepage";
 
 function App() {
   return (
-    <>
-      <div>
-        <Homepage />
-      </div>
-    </>
+    <div className="">
+      <Homepage />
+    </div>
   );
 }
 
