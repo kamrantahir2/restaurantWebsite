@@ -8,14 +8,14 @@ const MenuSlider = () => {
     autoplaySpeed: 6000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     arrows: true,
   };
 
   return (
     <div className="menu-slider">
       <div className="py-5">
-        <div className="w-9/12 lg:w-7/12 menu-bg m-auto bg-menuBackground my-12 rounded-3xl">
+        <div className="w-8/12 lg:w-7/12 menu-bg m-auto bg-menuBackground my-12 rounded-3xl">
           <Slider {...settings} className="font-quicksand">
             <div className="">
               <div className="grid lg:grid-cols-2">
@@ -37,9 +37,10 @@ const MenuSlider = () => {
                     </button>
                   </div>
                 </div>
+
                 <img
                   src="./menuSlider/drinksMenu.jpg"
-                  className="menuImage lg:border-l-4 border-b-4 lg:border-b-0 border-yellow-200 order-first lg:order-last lg:rounded-r-3xl lg:rounded-tl-none rounded-tl-3xl rounded-t-3xl  "
+                  className="menuImage lg:border-l-4 border-b-4 lg:border-b-0 border-yellow-200 order-first lg:order-last lg:rounded-r-3xl lg:rounded-tl-none rounded-tl-3xl rounded-t-3xl h-"
                   alt=""
                 />
               </div>
