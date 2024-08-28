@@ -39,7 +39,7 @@ const MenuSlider = () => {
                 </div>
                 <img
                   src="./menuSlider/drinksMenu.jpg"
-                  className="menuImage lg:border-l-4 border-b-4 lg:border-b-0 border-yellow-200 order-first lg:order-last lg:rounded-r-3xl rounded-t-3xl lg:rounded-t-none "
+                  className="menuImage lg:border-l-4 border-b-4 lg:border-b-0 border-yellow-200 order-first lg:order-last lg:rounded-r-3xl rounded-tl-none rounded-t-3xl  "
                   alt=""
                 />
               </div>
@@ -67,7 +67,7 @@ const MenuSlider = () => {
                 </div>
                 <img
                   src="./menuSlider/chefSelection.jpg"
-                  className="menuImage lg:border-l-4 border-b-4 lg:border-b-0 border-yellow-200 order-first lg:order-last lg:rounded-r-3xl rounded-t-3xl lg:rounded-t-none "
+                  className="menuImage lg:border-l-4 border-b-4 lg:border-b-0 border-yellow-200 order-first lg:order-last lg:rounded-r-3xl rounded-tl-none rounded-t-3xl "
                   alt=""
                 />
               </div>
@@ -95,7 +95,7 @@ const MenuSlider = () => {
                 </div>
                 <img
                   src="./menuSlider/lunch.jpg"
-                  className="menuImage lg:border-l-4 border-b-4 lg:border-b-0 border-yellow-200 order-first lg:order-last lg:rounded-r-3xl rounded-t-3xl lg:rounded-t-none "
+                  className="menuImage lg:border-l-4 border-b-4 lg:border-b-0 border-yellow-200 order-first lg:order-last lg:rounded-r-3xl rounded-tl-none rounded-t-3xl "
                   alt=""
                 />
               </div>
