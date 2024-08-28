@@ -3,11 +3,11 @@ const AboutQismat = () => {
     <div className="my-20 flex mx-4 lg:mx-40 p-12 border-gray-700 border-double border-8 ">
       <div className="grid lg:grid-cols-2">
         <div className="order-last lg:order-first">
-          <h2 className="text-4xl text-center font-quicksand font-medium underline text-red-800">
+          <h2 className="text-4xl text-center font-quicksand font-bold underline text-red-800">
             About Qismat <br />
           </h2>
           <div>
-            <h2 className="text-3xl mb-4 text-center text-red-800">
+            <h2 className="text-3xl font-semibold mb-4 text-center text-red-800">
               &#9671; &#9671; &#9672; &#9671;{" "}
             </h2>
             <h2 className="text-xl font-quicksand font-bold leading-8 text-red-800">
