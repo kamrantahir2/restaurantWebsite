@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         logo: "#f1d089",
+        menuBackground: "#420101",
       },
       fontFamily: {
         courgette: ["Courgette", "Arial", "sans-serif"],
