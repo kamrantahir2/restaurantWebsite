@@ -13,11 +13,11 @@ const MenuSlider = () => {
   };
 
   return (
-    <div className="menu-slider border-t-4 border-yellow-600 -screen">
+    <div className="menu-slider border-t-4 border-yellow-600 h-full">
       <div className="py-5">
-        <div className="w-6/12 md:w-5/12 lg:w-7/12 menu-bg m-auto  sm:h-screen md:h-auto">
+        <div className="w-9/12 md:w-9/12 lg:w-7/12 menu-bg m-auto  sm:h-screen md:h-auto">
           <Slider {...settings} className="font-quicksand">
-            <div className="bg-menuBackground my-12 rounded-3xl">
+            <div className="bg-menuBackground my-12 rounded-3xl ">
               <div className="grid lg:grid-cols-2">
                 <div className=" text-yellow-200 p-5 ">
                   <h2 className="text-5xl mb-4">Drinks Menu</h2>
