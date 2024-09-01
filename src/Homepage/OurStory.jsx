@@ -20,7 +20,7 @@ const OurStory = () => {
             laboriosam.
           </h3>
         </div>
-        <div className="order-first border-r-2 border-yellow-200">
+        <div className="order-first border-r-4 border-yellow-200">
           <img
             className="menuImage w-full lg:border-none border-b-4 border-yellow-200"
             src="./store.jpg"

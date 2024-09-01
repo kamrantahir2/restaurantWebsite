@@ -6,7 +6,7 @@ export default {
       colors: {
         logo: "#f1d089",
         menuBackground: "#300000",
-        ourStory: "#862f2d",
+        ourStory: "#752321",
       },
       fontFamily: {
         courgette: ["Courgette", "Arial", "sans-serif"],
