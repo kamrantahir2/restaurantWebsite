@@ -23,6 +23,10 @@ export default {
         lg: "1240px",
         // => @media (min-width: 1440px) { ... }
       },
+      backgroundPosition: {
+        "bottom-4": "center bottom",
+        "center-drink": "center -250px",
+      },
     },
   },
   plugins: [],
