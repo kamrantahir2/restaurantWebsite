@@ -8,7 +8,7 @@ const MenuSlider = () => {
     autoplaySpeed: 6000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     arrows: true,
   };
 
@@ -38,7 +38,7 @@ const MenuSlider = () => {
                   </div>
                 </div>
 
-                <div className="sm:hidden md:block">
+                <div className="hidden md:block">
                   <img
                     src="./menuSlider/drinksMenu.jpg"
                     className="menuImage md:border-l-4 border-b-4 md:border-b-0 border-yellow-200 order-first md:order-last w-3/12 md:w-full "
@@ -67,7 +67,7 @@ const MenuSlider = () => {
                     </button>
                   </div>
                 </div>
-                <div className="sm:hidden md:block">
+                <div className="hidden md:block">
                   <img
                     src="./menuSlider/drinksMenu.jpg"
                     className="menuImage md:border-l-4 border-b-4 md:border-b-0 border-yellow-200 order-first md:order-last  w-3/12 md:w-full "
@@ -96,10 +96,10 @@ const MenuSlider = () => {
                     </button>
                   </div>
                 </div>
-                <div className="sm:hidden md:block">
+                <div className="hidden md:block">
                   <img
                     src="./menuSlider/drinksMenu.jpg"
-                    className="menuImage md:border-l-4 border-b-4 md:border-b-0 border-yellow-200 order-first md:order-last  w-3/12 md:w-full "
+                    className="menuImage md:border-l-4 border-b-4 md:border-b-0 border-yellow-200 order-first md:order-last sm:hidden md:block w-3/12 md:w-full "
                     alt=""
                   />
                 </div>
