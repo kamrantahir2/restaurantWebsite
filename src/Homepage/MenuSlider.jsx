@@ -46,7 +46,7 @@ const MenuSlider = () => {
                   />
                 </div>
 
-                <div className="h-96 w-full bg-white order-first md:hidden bg-[url('/drinksMenu.jpg')] bg-cover bg-center-drink border-b-4 border-yellow-600"></div>
+                <div className="h-96 w-full bg-white order-first md:hidden bg-[url('/drinksMenu.jpg')] bg-cover bg-center border-b-4 border-yellow-600"></div>
               </div>
             </div>
 
