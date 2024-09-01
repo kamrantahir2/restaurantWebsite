@@ -46,7 +46,7 @@ const MenuSlider = () => {
                   />
                 </div>
 
-                <div className="h-96 w-full bg-white order-first md:hidden bg-[url('./menuSlider/drinksMenu.jpg')] bg-cover bg-center-drink border-b-4 border-yellow-600"></div>
+                <div className="h-96 w-full bg-white order-first md:hidden bg-[url('/drinksMenu.jpg')] bg-cover bg-center-drink border-b-4 border-yellow-600"></div>
               </div>
             </div>
 
@@ -75,7 +75,7 @@ const MenuSlider = () => {
                   />
                 </div>
 
-                <div className="h-96 w-full bg-white order-first md:hidden bg-[url('./menuSlider/chefSelection.jpg')] bg-cover bg-bottom-4 border-b-4 border-yellow-600"></div>
+                <div className="h-96 w-full bg-white order-first md:hidden bg-[url('/chefSelection.jpg')] bg-cover bg-bottom-4 border-b-4 border-yellow-600"></div>
               </div>
             </div>
 
@@ -104,7 +104,7 @@ const MenuSlider = () => {
                   />
                 </div>
 
-                <div className="h-96 w-full bg-white order-first md:hidden bg-[url('./menuSlider/lunch.jpg')] bg-cover bg-center  border-b-4 border-yellow-600"></div>
+                <div className="h-96 w-full bg-white order-first md:hidden bg-[url('/lunch.jpg')] bg-cover bg-center  border-b-4 border-yellow-600"></div>
               </div>
             </div>
           </Slider>
