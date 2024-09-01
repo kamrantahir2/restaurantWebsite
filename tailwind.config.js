@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         logo: "#f1d089",
-        menuBackground: "#420101",
+        menuBackground: "#300000",
         ourStory: "#862f2d",
       },
       fontFamily: {

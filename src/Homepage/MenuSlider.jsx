@@ -18,11 +18,11 @@ const MenuSlider = () => {
         <div className=" menu-bg  md:h-3/5">
           <Slider
             {...settings}
-            className="font-quicksand w-9/12 md:w-9/12 lg:w-3/6 m-auto"
+            className="font-quicksand w-11/12 md:w-9/12 lg:w-3/6 m-auto overflow-x-clip md:overflow-visible mb-4"
           >
             <div className="bg-menuBackground my-12 h-3/5 ">
-              <div className="grid  md:grid-cols-2">
-                <div className=" text-yellow-200 p-5 ">
+              <div className="grid md:grid-cols-2">
+                <div className=" text-yellow-200 p-12 md:p-7 md:pt-24 ">
                   <h2 className="text-5xl mb-4">Drinks Menu</h2>
                   <h2 className="text-3xl font-semibold  text-yellow-200">
                     &#9671; &#9671; &#9672; &#9671;{" "}
@@ -52,7 +52,7 @@ const MenuSlider = () => {
 
             <div className="bg-menuBackground my-12 ">
               <div className="grid md:grid-cols-2">
-                <div className=" text-yellow-200 p-5">
+                <div className=" text-yellow-200 p-12 md:p-7 md:pt-24">
                   <h2 className="text-5xl mb-4">Chef's Specials</h2>
                   <h2 className="text-3xl font-semibold  text-yellow-200">
                     &#9671; &#9671; &#9672; &#9671;{" "}
@@ -81,7 +81,7 @@ const MenuSlider = () => {
 
             <div className="bg-menuBackground my-12 ">
               <div className="grid md:grid-cols-2">
-                <div className=" text-yellow-200 p-5">
+                <div className=" text-yellow-200 p-12 md:p-7 md:pt-24">
                   <h2 className="text-5xl mb-4">Lunch Menu</h2>
                   <h2 className="text-3xl font-semibold  text-yellow-200">
                     &#9671; &#9671; &#9672; &#9671;{" "}

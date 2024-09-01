@@ -31,7 +31,7 @@ const AboutQismat = () => {
         </div>
         <img
           src="./diningArea.jpg"
-          className="lg:w-8/12 md:w-7/12 mx-auto lg:ml-24 mb-4 lg:mb-0 rounded-2xl"
+          className="lg:w-8/12 md:w-7/12 mx-auto lg:ml-24 mb-4 lg:mb-0 rounded-2xl menuImage"
           alt=""
         />
       </div>

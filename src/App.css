@@ -1,13 +1,16 @@
 .menu-slider {
-  background-color: #a40e00;
-  opacity: 0.8;
-  background: repeating-linear-gradient(
-    45deg,
-    #ca0909,
-    #ca0909 5px,
-    #a40e00 5px,
-    #a40e00 25px
-  );
+  --s: 60px; /* control the size*/
+  --c1: #640202;
+  --c2: #4b0101;
+
+  --_g: #0000 83%, var(--c1) 85% 99%, #0000 101%;
+  background: radial-gradient(27% 29% at right, var(--_g)) calc(var(--s) / 2)
+      var(--s),
+    radial-gradient(27% 29% at left, var(--_g)) calc(var(--s) / -2) var(--s),
+    radial-gradient(29% 27% at top, var(--_g)) 0 calc(var(--s) / 2),
+    radial-gradient(29% 27% at bottom, var(--_g)) 0 calc(var(--s) / -2)
+      var(--c2);
+  background-size: calc(2 * var(--s)) calc(2 * var(--s));
 }
 
 .order {
@@ -15,6 +18,6 @@
 }
 
 .menuImage {
-  outline: 1px double white;
-  outline-offset: -24px;
+  outline: 5px double lightgoldenrodyellow;
+  outline-offset: -32px;
 }
