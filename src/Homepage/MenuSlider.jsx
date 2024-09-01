@@ -20,7 +20,7 @@ const MenuSlider = () => {
             {...settings}
             className="font-quicksand w-9/12 md:w-9/12 lg:w-3/6 m-auto"
           >
-            <div className="bg-menuBackground my-12 rounded-3xl h-3/5 ">
+            <div className="bg-menuBackground my-12 h-3/5 ">
               <div className="grid  md:grid-cols-2">
                 <div className=" text-yellow-200 p-5 ">
                   <h2 className="text-5xl mb-4">Drinks Menu</h2>
@@ -41,16 +41,16 @@ const MenuSlider = () => {
                 <div className="sm:hidden md:block">
                   <img
                     src="./menuSlider/drinksMenu.jpg"
-                    className="menuImage md:border-l-4 border-b-4 md:border-b-0 border-yellow-200 order-first md:order-last md:rounded-r-3xl md:rounded-tl-none rounded-t-3xl rounded-tl-3xl w-3/12 md:w-full "
+                    className="menuImage md:border-l-4 border-b-4 md:border-b-0 border-yellow-200 order-first md:order-last w-3/12 md:w-full "
                     alt=""
                   />
                 </div>
 
-                <div className="h-96 w-full bg-white order-first md:hidden bg-[url('./menuSlider/drinksMenu.jpg')] bg-cover bg-center-drink rounded-t-xl border-b-4 border-yellow-600"></div>
+                <div className="h-96 w-full bg-white order-first md:hidden bg-[url('./menuSlider/drinksMenu.jpg')] bg-cover bg-center-drink border-b-4 border-yellow-600"></div>
               </div>
             </div>
 
-            <div className="bg-menuBackground my-12 rounded-3xl">
+            <div className="bg-menuBackground my-12 ">
               <div className="grid md:grid-cols-2">
                 <div className=" text-yellow-200 p-5">
                   <h2 className="text-5xl mb-4">Chef's Specials</h2>
@@ -70,16 +70,16 @@ const MenuSlider = () => {
                 <div className="sm:hidden md:block">
                   <img
                     src="./menuSlider/drinksMenu.jpg"
-                    className="menuImage md:border-l-4 border-b-4 md:border-b-0 border-yellow-200 order-first md:order-last md:rounded-r-3xl md:rounded-tl-none rounded-t-3xl rounded-tl-3xl w-3/12 md:w-full "
+                    className="menuImage md:border-l-4 border-b-4 md:border-b-0 border-yellow-200 order-first md:order-last  w-3/12 md:w-full "
                     alt=""
                   />
                 </div>
 
-                <div className="h-96 w-full bg-white order-first md:hidden bg-[url('./menuSlider/chefSelection.jpg')] bg-cover bg-bottom-4 rounded-t-xl border-b-4 border-yellow-600"></div>
+                <div className="h-96 w-full bg-white order-first md:hidden bg-[url('./menuSlider/chefSelection.jpg')] bg-cover bg-bottom-4 border-b-4 border-yellow-600"></div>
               </div>
             </div>
 
-            <div className="bg-menuBackground my-12 rounded-3xl">
+            <div className="bg-menuBackground my-12 ">
               <div className="grid md:grid-cols-2">
                 <div className=" text-yellow-200 p-5">
                   <h2 className="text-5xl mb-4">Lunch Menu</h2>
@@ -91,7 +91,7 @@ const MenuSlider = () => {
                       Lorem ipsum odor amet, consectetuer adipiscing elit. Eu
                       porta posuere erat ante duis dapibus maecenas fusce.
                     </h3>
-                    <button className="bg-yellow-200 text-red-900 p-4 mt-4 lg:mt-12 font-quicksand font-bold rounded-t-xl">
+                    <button className="bg-yellow-200 text-red-900 p-4 mt-4 lg:mt-12 font-quicksand font-bold rounded-xl">
                       View Menu
                     </button>
                   </div>
@@ -99,12 +99,12 @@ const MenuSlider = () => {
                 <div className="sm:hidden md:block">
                   <img
                     src="./menuSlider/drinksMenu.jpg"
-                    className="menuImage md:border-l-4 border-b-4 md:border-b-0 border-yellow-200 order-first md:order-last md:rounded-r-3xl md:rounded-tl-none rounded-t-3xl rounded-tl-3xl w-3/12 md:w-full "
+                    className="menuImage md:border-l-4 border-b-4 md:border-b-0 border-yellow-200 order-first md:order-last  w-3/12 md:w-full "
                     alt=""
                   />
                 </div>
 
-                <div className="h-96 w-full bg-white order-first md:hidden bg-[url('./menuSlider/lunch.jpg')] bg-cover bg-center rounded-t-xl border-b-4 border-yellow-600"></div>
+                <div className="h-96 w-full bg-white order-first md:hidden bg-[url('./menuSlider/lunch.jpg')] bg-cover bg-center  border-b-4 border-yellow-600"></div>
               </div>
             </div>
           </Slider>
