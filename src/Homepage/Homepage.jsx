@@ -2,6 +2,7 @@ import Hero from "./Hero";
 import AboutQismat from "./AboutQismat";
 import MenuSlider from "./MenuSlider";
 import OurStory from "./OurStory";
+import OpeningTimes from "./OpeningTimes";
 
 const Homepage = () => {
   return (
@@ -10,6 +11,7 @@ const Homepage = () => {
       <AboutQismat />
       <MenuSlider />
       <OurStory />
+      <OpeningTimes />
     </div>
   );
 };
