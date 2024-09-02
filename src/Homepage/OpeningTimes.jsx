@@ -8,7 +8,7 @@ const OpeningTimes = () => {
             &#9671; &#9671; &#9672; &#9671;{" "}
           </h2>
         </div>
-        <div className="grid grid-cols-2">
+        <div className="grid md:grid-cols-2">
           <div className="">
             <div className="grid grid-cols-2 gap-12 ">
               <h3 className="text-right">Monday</h3>
@@ -59,9 +59,9 @@ const OpeningTimes = () => {
               </div>
             </div>
           </div>
-          <div className="w-8/12 ">
+          <div className=" w-10/12 md:w-11/12 md:mr-12 lg:w-8/12 m-auto mt-12 md:m-auto lg:m-0 ">
             <img
-              className="border-4 border-double border-red-800 m-auto"
+              className="border-4 border-double border-red-800 "
               src="./map.png"
               alt=""
             />
