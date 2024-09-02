@@ -8,7 +8,7 @@ const MenuSlider = () => {
     autoplaySpeed: 6000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     arrows: true,
   };
 
